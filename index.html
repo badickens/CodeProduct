@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>Coding For Product</title>
+	    <meta charset="UTF-8" />
+		<meta name="viewport" content="width = device-width, initial-scale = 1" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/exercise.js"></script>
+    </head>
+	<body>
+	 	
+		<!-- Top Menu Bar -->
+		<nav class="navbar navbar-inverse">     
+			<div class="container-fluid">  
+			
+				<!-- Logo --> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar"> 
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">CODING For Product</a>   
+				</div>
+				
+				<!-- Menu Items -->
+				<div class="collapse navbar-collapse" id="mainNavBar">  
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>   
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Main Content -->
+		<div class="container">
+					
+			<h2>Exercise 1:</h2>
+			<p>Write a function that when given an key value pair with a title and url, the function will print a linked title.</p>
+			<p class="indent1">If the title is longer than 50 characters, truncate the title to 50 characters followed by 3 ellipses.
+			To “print” use the print/console method from your programming language.</p>
+			
+			<h3 class="io_header">Input:</h3>
+			<p>// this is a javaScript object. Your input will differ depending on the language you use.</p>
+			<p>{</p>
+			<label class="indent1">title:</label>
+			<input type="text" id="title" placeholder="Title" /><br />
+			<label class="indent1">link:</label>
+			<input type="text" id="url" placeholder="URL" />
+			<p>}</p>
+			
+			<button class="btn btn-success" type="submit" id="ex1" name="convert">Convert to Link</button>
+			<div id="output_ex1" class="well well-sm output">
+				<h3>Output:</h3>
+			</div>
+			<!-- TODO
+			<button id="test_button1" class="btn btn-warning">Make Test Links</button>
+			<div id="test_area_1" class="well"></div> -->
+			
+			<h2>Exercise 2:</h2>
+			<p>Write a function when given an array of key value pairs, the function will print out a linked title for key value pair.</p> 
+            <p>Call the function from previous question in this function.</p>
+			<h3 class="io_header">Input:</h3>
+			
+				<p>[</p>
+				<div id="obj_view" class="objs">
+					<p class="indent1">{</p>
+					<label class="indent2">title:</label>
+					<input type="text" id="title0" class="for_remove" placeholder="Title" /><br />
+					<label class="indent2">link:</label>
+					<input type="text" id="url0" class="for_remove" placeholder="URL" />
+					<p class="indent1">},</p>
+				</div>
+				<div id="obj_view_extended"></div>
+				<p>]</p>
+			
+			<button class="btn btn-primary" type="submit" id="add_obj" name="add_obj">Add New Pair</button>
+			
+			<button class="btn btn-success" type="submit" id="ex2" name="convert">Convert to Link</button>
+			<div id="output_ex2" class="well well-sm output">
+				<h3>Output:</h3>
+			</div>
+			<!-- TODO
+			<button id="test_button2" class="btn btn-warning">Make Test Links</button>
+			<div id="test_area_2" class="well"></div> -->
+			
+		</div>
+    </body>
+</html>
+ 

@@ -1,0 +1,26 @@
+body {
+	background: #efefef;
+}
+
+.indent1 {
+	padding-left: 20px;
+}
+
+.indent2 {
+	padding-left: 40px;
+}
+
+.output {
+	margin: 20px 0;
+}
+
+.rem {
+	margin: 0px 5px 0px 10px;
+	padding: 0px 3px;
+	border: 1px solid red;
+	color: red;
+}
+
+#test_button1, #test_button2 {
+	margin-bottom: 20px; 
+}
